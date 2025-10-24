@@ -1,0 +1,12 @@
+Summary Statistic	PS_codon.logPosterior	PS_codon_run_1.logPosterior	PS_codon_run_2.logPosterior	PS_uniform.logPosterior	PS_uniform_run_1.logPosterior	PS_uniform_run_2.logPosterior
+mean	-4125.4734	-4125.3878	-4125.5589	-4482.8702	-4482.8933	-4482.8471
+stderr of mean	0.0673	0.0938	0.093	0.0606	0.0873	0.0903
+stdev	5.5992	5.6633	5.5337	5.2593	5.2208	5.298
+variance	31.3511	32.0731	30.6213	27.6602	27.257	28.0684
+median	-4125.07	-4124.916	-4125.175	-4482.47	-4482.426	-4482.509
+value range	[-4148.495, -4107.585]	[-4148.495, -4107.585]	[-4147.943, -4109.722]	[-4506.647, -4465.139]	[-4503.852, -4465.139]	[-4506.647, -4467.144]
+geometric mean	n/a	n/a	n/a	n/a	n/a	n/a
+95% HPD interval	[-4136.493, -4114.965]	[-4136.392, -4114.788]	[-4136.424, -4115.039]	[-4493.489, -4473.095]	[-4493.173, -4473.079]	[-4493.489, -4472.861]
+auto-correlation time (ACT)	1.3003	12.3442	12.7068	1.1946	12.5791	13.0709
+effective sample size (ESS)	6923	3646.2	3542.2	7535.7	3578.2	3443.5
+number of samples	9002	4501	4501	9002	4501	4501

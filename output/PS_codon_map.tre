@@ -1,0 +1,30 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=19;
+	Taxlabels
+		Aptenodytes_forsteri
+		Aptenodytes_patagonicus
+		Eudyptes_chrysocome
+		Eudyptes_chrysolophus
+		Eudyptes_moseleyi
+		Eudyptes_pachyrhynchus
+		Eudyptes_robustus
+		Eudyptes_schlegeli
+		Eudyptes_sclateri
+		Eudyptula_minor
+		Macronectes_giganteus
+		Megadyptes_antipodes
+		Pygoscelis_adeliae
+		Pygoscelis_antarcticus
+		Pygoscelis_papua
+		Spheniscus_demersus
+		Spheniscus_humboldti
+		Spheniscus_magellanicus
+		Spheniscus_mendiculus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((((Eudyptes_chrysolophus[&index=13]:0.005107[&brlen_95%_HPD={0.000445,0.010533}],Eudyptes_schlegeli[&index=19]:0.003984[&brlen_95%_HPD={5.7e-05,0.009072}])[&index=20,posterior=1.000000]:0.022345[&brlen_95%_HPD={0.011379,0.032933}],(Eudyptes_pachyrhynchus[&index=8]:0.015629[&brlen_95%_HPD={0.007466,0.024957}],Eudyptes_robustus[&index=4]:0.004436[&brlen_95%_HPD={0.000207,0.008958}])[&index=21,posterior=1.000000]:0.018249[&brlen_95%_HPD={0.008877,0.029518}])[&index=22,posterior=0.367021]:0.004327[&brlen_95%_HPD={6e-06,0.010558}],Eudyptes_sclateri[&index=16]:0.026058[&brlen_95%_HPD={0.014169,0.039787}])[&index=23,posterior=0.739362]:0.007022[&brlen_95%_HPD={0.000107,0.014373}],(Eudyptes_chrysocome[&index=9]:0.001462[&brlen_95%_HPD={4e-06,0.004032}],Eudyptes_moseleyi[&index=12]:0.001571[&brlen_95%_HPD={4e-06,0.00459}])[&index=24,posterior=1.000000]:0.023387[&brlen_95%_HPD={0.011059,0.036584}])[&index=25,posterior=1.000000]:0.036375[&brlen_95%_HPD={0.015475,0.056885}],Megadyptes_antipodes[&index=17]:0.031150[&brlen_95%_HPD={0.01294,0.049963}])[&index=26,posterior=1.000000]:0.037620[&brlen_95%_HPD={0.011473,0.063447}],(((Spheniscus_demersus[&index=5]:0.017073[&brlen_95%_HPD={0.007773,0.027157}],Spheniscus_magellanicus[&index=18]:0.005619[&brlen_95%_HPD={1.3e-05,0.011497}])[&index=27,posterior=1.000000]:0.013546[&brlen_95%_HPD={0.004072,0.02411}],(Spheniscus_humboldti[&index=11]:0.005502[&brlen_95%_HPD={0.000383,0.011583}],Spheniscus_mendiculus[&index=15]:0.005702[&brlen_95%_HPD={0.000734,0.011775}])[&index=28,posterior=0.478723]:0.004231[&brlen_95%_HPD={1e-06,0.011025}])[&index=29,posterior=1.000000]:0.078663[&brlen_95%_HPD={0.046974,0.11395}],Eudyptula_minor[&index=2]:0.092915[&brlen_95%_HPD={0.058177,0.128584}])[&index=30,posterior=0.513298]:0.015231[&brlen_95%_HPD={0.000129,0.032033}])[&index=31,posterior=1.000000]:0.043478[&brlen_95%_HPD={0.017116,0.068182}],((Pygoscelis_antarcticus[&index=3]:0.051390[&brlen_95%_HPD={0.029484,0.074932}],Pygoscelis_papua[&index=6]:0.037942[&brlen_95%_HPD={0.019996,0.059391}])[&index=32,posterior=0.962766]:0.019549[&brlen_95%_HPD={0.002624,0.039378}],Pygoscelis_adeliae[&index=7]:0.079628[&brlen_95%_HPD={0.048594,0.1103}])[&index=33,posterior=1.000000]:0.035819[&brlen_95%_HPD={0.011812,0.065032}])[&index=34,posterior=0.920213]:0.033891[&brlen_95%_HPD={0.000593,0.068142}],Macronectes_giganteus[&index=1]:0.360755[&brlen_95%_HPD={0.247016,0.472979}])[&index=35,posterior=0.892287]:0.044895[&brlen_95%_HPD={0.006599,0.083322}],Aptenodytes_forsteri[&index=14]:0.016465[&brlen_95%_HPD={8e-06,0.034298}],Aptenodytes_patagonicus[&index=10]:0.062646[&brlen_95%_HPD={0.035382,0.091725}])[&index=36,posterior=1.000000]:0.000000;
+End;
